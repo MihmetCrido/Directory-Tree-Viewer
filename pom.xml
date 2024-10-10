@@ -8,6 +8,14 @@
     <artifactId>pp</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub MihmetCrido Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/MihmetCrido/Directory-Tree-Viewer</url>
+        </repository>
+    </distributionManagement>
+         
     <build>
         <finalName>xp</finalName> <!-- Specify your desired JAR file name here -->
 
